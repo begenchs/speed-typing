@@ -12,7 +12,11 @@
     "babel-preset-react": "*"
   },
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack -w"
+    "start": "react-scripts start",
+    "predeploy": "npm run build", <----------- #1
+    "deploy": "gh-pages -d build", <---------- #2
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   }
 }
