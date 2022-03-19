@@ -1,5 +1,6 @@
 {
   "name": "project",
+  "homepage": "https://ed17usiv.github.io/speed-typing/",
   "dependencies": {
     "react": "16.10.2",
     "react-dom": "16.10.2"
